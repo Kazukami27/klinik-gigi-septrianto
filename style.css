@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.hero {
+  background: #0077b6;
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+.btn {
+  background: white;
+  color: #0077b6;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.services, .about, .contact {
+  padding: 40px;
+}
