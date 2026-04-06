@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drg. Septrianto - Spesialis Dokter Gigi Tangerang</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; }
+        h1, h2, h3 { font-family: 'Plus Jakarta Sans', sans-serif; }
+        
+        .text-accent { color: #00f2ea; }
+        .bg-accent { background-color: #00f2ea; }
+        
+        .hero-overlay {
+            background: linear-gradient(to bottom, rgba(15, 23, 42, 0.3), rgba(15, 23, 42, 0.9));
+        }
+
+        .service-card {
+            background-color: #1e293b;
+            transition: all 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            border-color: #00f2ea;
+        }
+    </style>
+</head>
+<body class="text-white">
+
+    <nav class="fixed w-full z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
+            <div class="text-sm font-bold tracking-tight">
+                Drg Septrianto • <span class="text-slate-400 font-medium italic">Spesialis Dokter Gigi</span>
+            </div>
+            <div class="hidden md:flex gap-8 text-xs font-bold uppercase tracking-widest text-slate-400">
+                <a href="#layanan" class="hover:text-accent transition">Layanan</a>
+                <a href="#testimoni" class="hover:text-accent transition">Testimoni</a>
+                <a href="#lokasi" class="hover:text-accent transition">Lokasi</a>
+            </div>
+            <a href="https://wa.me/6281932791318" target="_blank" class="bg-accent text-slate-900 px-5 py-2 rounded-full font-bold text-xs hover:opacity-80 transition shadow-lg shadow-cyan-500/20">
+                Hubungi Kami
+            </a>
+        </div>
+    </nav>
+
+    <section class="relative h-[85vh] flex items-center px-6 pt-16">
+        <div class="absolute inset-0 z-0 overflow-hidden">
+            <img src="images/hero.jpg" class="w-full h-full object-cover opacity-50 shadow-inner" alt="Background Klinik">
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto w-full">
+            <div class="bg-[#0f172a]/70 backdrop-blur-xl p-8 md:p-14 rounded-[2.5rem] border border-slate-700/50 max-w-2xl shadow-2xl">
+                <div class="w-12 h-1 bg-accent mb-6 rounded-full"></div>
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                    Praktek Dokter Gigi Spesialis <span class="text-accent">Drg Septrianto</span>
+                </h1>
+                <p class="text-slate-300 text-lg mb-10 leading-relaxed font-medium">
+                    Klinik Gigi Spesialis di Tangerang. <br>Menyediakan layanan Implant, Perawatan Gusi, dan Scaling dengan standar medis tertinggi.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://wa.me/6281932791318" class="bg-accent text-slate-900 px-10 py-4 rounded-full font-extrabold text-sm hover:scale-105 transition shadow-xl shadow-cyan-500/20">
+                        Booking Sekarang
+                    </a>
+                    <a href="#layanan" class="border border-slate-600 bg-slate-800/50 text-white px-10 py-4 rounded-full font-extrabold text-sm hover:bg-slate-700 transition">
+                        Lihat Layanan
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan" class="py-28 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-start mb-20 gap-8">
+                <div class="space-y-4">
+                    <p class="text-accent font-bold uppercase tracking-[0.2em] text-xs">Layanan Unggulan</p>
+                    <h2 class="text-3xl md:text-5xl font-extrabold max-w-md leading-tight">
+                        Perawatan gigi spesialis untuk kesehatan optimal
+                    </h2>
+                </div>
+                <div class="text-slate-400 max-w-sm pt-4">
+                    <p class="mb-6 leading-relaxed">Dari implan gigi hingga perawatan periodontal, kami menyediakan solusi lengkap untuk kebutuhan gigi Anda di Tangerang.</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-accent">
+                            <i data-lucide="clock" class="w-5 h-5"></i>
+                        </div>
+                        <span class="text-sm font-bold">Senin - Sabtu | 17:00 - 21:00 WIB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div class="service-card rounded-[2rem] overflow-hidden border border-slate-800 p-2 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=800" class="w-full h-52 object-cover rounded-[1.5rem]">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-3">Implan gigi</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed italic">Gigi tiruan permanen yang menyatu dengan tulang untuk fungsi maksimal dan estetika alami.</p>
+                    </div>
+                </div>
+                <div class="service-card rounded-[2rem] overflow-hidden border border-slate-800 p-2 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1593059080506-517a33f7293c?auto=format&fit=crop&q=80&w=800" class="w-full h-52 object-cover rounded-[1.5rem]">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-3">Perawatan periodontal</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed italic">Penanganan gusi dan tulang penyangga gigi oleh spesialis untuk mencegah kerontokan gigi.</p>
+                    </div>
+                </div>
+                <div class="service-card rounded-[2rem] overflow-hidden border border-slate-800 p-2 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&q=80&w=800" class="w-full h-52 object-cover rounded-[1.5rem]">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-3">Scaling dan pembersihan</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed italic">Pembersihan karang gigi profesional untuk gusi yang lebih sehat dan napas yang lebih segar.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="service-card rounded-[2rem] border border-slate-800 flex items-center p-6 gap-6">
+                    <div class="w-32 h-32 flex-shrink-0">
+                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400" class="w-full h-full rounded-2xl object-cover shadow-lg">
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2">Ekstraksi gigi</h3>
+                        <p class="text-slate-400 text-sm">Pencabutan gigi dengan teknik bedah minor yang aman dan minim trauma.</p>
+                    </div>
+                </div>
+                <div class="service-card rounded-[2rem] border border-slate-800 flex items-center p-6 gap-6">
+                    <div class="w-32 h-32 flex-shrink-0">
+                        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=400" class="w-full h-full rounded-2xl object-cover shadow-lg">
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2">Perawatan umum gigi</h3>
+                        <p class="text-slate-400 text-sm">Pemeriksaan rutin, penambalan, dan konsultasi kesehatan mulut menyeluruh.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimoni" class="py-28 bg-slate-900/40 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between mb-20 items-end gap-6">
+                <h2 class="text-3xl md:text-5xl font-extrabold max-w-md leading-tight">
+                    Kepuasan pasien adalah prioritas kami
+                </h2>
+                <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
+                    <div class="flex text-yellow-400 gap-1 mb-2">
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                    </div>
+                    <p class="text-xs text-slate-400 font-extrabold uppercase tracking-widest">Rating 5.0 Google Maps</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-10 rounded-[2.5rem] bg-[#1e293b] border border-slate-700/50 shadow-xl flex flex-col justify-between">
+                    <p class="text-slate-300 mb-8 leading-relaxed italic text-sm">"Selalu memuaskan pelayanan nya, harga juga OK bgt. Rekomen buat orang Tangerang dan sekitarnya 👌"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-accent/20 rounded-full flex items-center justify-center text-accent font-bold text-xs italic">RP</div>
+                        <span class="font-bold text-sm">Regga Putra</span>
+                    </div>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-[#1e293b] border border-slate-700/50 shadow-xl flex flex-col justify-between">
+                    <p class="text-slate-300 mb-8 leading-relaxed italic text-sm">"Dokter gigi terbaikkk, pengerjaan tindakannya cepet bangett dan minim rasa sakitnya. Jadi gak takut!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-accent/20 rounded-full flex items-center justify-center text-accent font-bold text-xs italic">AI</div>
+                        <span class="font-bold text-sm">Angela Indri</span>
+                    </div>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-[#1e293b] border border-slate-700/50 shadow-xl flex flex-col justify-between">
+                    <p class="text-slate-300 mb-8 leading-relaxed italic text-sm">"Dokternya ramah, detail dalam menjelaskan. Kami sekeluarga langganan di sini karena pengerjaannya rapi."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-accent/20 rounded-full flex items-center justify-center text-accent font-bold text-xs italic">RF</div>
+                        <span class="font-bold text-sm">Rinda FungFung</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="lokasi" class="py-28 px-6 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20">
+            <div class="space-y-10">
+                <div class="space-y-4">
+                    <h2 class="text-4xl font-extrabold">Temui Kami</h2>
+                    <p class="text-slate-400 text-lg leading-relaxed">Berlokasi di Poris Garden, Tangerang, Banten, klinik kami siap membantu Anda mendapatkan kesehatan gigi yang sempurna.</p>
+                </div>
+                <div class="space-y-6">
+                    <div class="flex gap-5 items-center group">
+                        <div class="w-12 h-12 bg-slate-800 rounded-2xl flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-slate-900 transition-all shadow-lg">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <p class="text-slate-300 font-medium text-sm">Ruko Poris Garden Blok A1 No.17A, Tangerang</p>
+                    </div>
+                    <div class="flex gap-5 items-center group">
+                        <div class="w-12 h-12 bg-slate-800 rounded-2xl flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-slate-900 transition-all shadow-lg">
+                            <i data-lucide="phone"></i>
+                        </div>
+                        <p class="text-slate-300 font-medium text-sm">0819-3279-1318</p>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <a href="https://wa.me/6281932791318" class="bg-accent text-slate-900 px-8 py-3 rounded-full font-extrabold text-xs inline-flex items-center gap-2 hover:opacity-80 transition">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i> Konsultasi Via WhatsApp
+                    </a>
+                </div>
+            </div>
+            
+            <div class="relative group">
+                <div class="absolute -inset-2 bg-accent/20 blur-xl opacity-0 group-hover:opacity-100 transition duration-1000"></div>
+                <div class="relative h-full min-h-[400px] rounded-[3rem] overflow-hidden border-8 border-slate-800 grayscale contrast-125">
+                    <img src="https://www.maproom.net/wp-content/uploads/Map-of-Tangerang.jpg" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-slate-900/40 flex items-center justify-center">
+                        <a href="https://www.google.com/maps/contrib/105561990922294731170/reviews" target="_blank" class="bg-white text-slate-900 px-6 py-3 rounded-xl font-bold text-sm shadow-2xl hover:scale-105 transition">
+                            Lihat di Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-28 pt-10 border-t border-slate-800 text-center text-xs text-slate-500 font-medium tracking-widest uppercase">
+            <p>© 2026 Praktek Dokter Gigi Spesialis Drg Septrianto. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/6281932791318" target="_blank" class="fixed bottom-8 right-8 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition z-50 group">
+        <i data-lucide="message-circle" class="w-8 h-8"></i>
+        <span class="absolute right-full mr-4 bg-white text-slate-800 px-4 py-2 rounded-lg text-sm font-bold shadow-xl opacity-0 group-hover:opacity-100 transition whitespace-nowrap">Tanya Dokter Sekarang</span>
+    </a>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
